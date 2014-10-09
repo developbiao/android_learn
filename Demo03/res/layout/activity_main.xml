@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ab.demo03.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:completionThreshold="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       	android:hint="请输入你的常用联系人" >
+
+        <requestFocus />
+    </MultiAutoCompleteTextView>
+
+</FrameLayout>

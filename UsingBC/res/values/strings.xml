@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsingBC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sendbroadcast">SendBroadCast</string>
+    <string name="reg_broadcastreveiver">Reg BroadCastReveiver</string>
+    <string name="un_reg_broadcastreveiver">Un Reg BroadCastReveiver</string>
+
+</resources>

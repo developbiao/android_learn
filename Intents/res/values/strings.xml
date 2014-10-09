@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intents</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_one">Activity One</string>
+    <string name="openimage">OpenImage</string>
+    <string name="startaty1">StartAty1</string>
+    <string name="_Del10086">呼叫10086</string>
+    <string name="_wenlu">打开 wenlu</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">短息发送器</string>
+	<string name="number">请输入手机号码</string>
+	<string name="content">请输入短息信息</string>
+	<string name="button">Send</string>
+	<string name="_scucceful">发送成功！</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+       	android:id="@+id/btnStartAty1"
+       	android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="@string/startaty1"
+        />
+    <Button
+        android:id="@+id/btnOpenImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/openimage"
+        />
+    <Button
+        android:id="@+id/btnDel10086"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_Del10086"
+        />
+    
+    <Button 
+        android:id="@+id/btnNavTowenlu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_wenlu"
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ab.button.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+  
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_findgf" />
+
+      <ImageButton
+          android:id="@+id/imageButton1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@android:drawable/ic_notification_overlay" android:contentDescription="TODO"/>
+
+</FrameLayout>

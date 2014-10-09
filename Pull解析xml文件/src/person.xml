@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<persons>
+    <person id="3">
+        <name>王小强</name>
+       <age>17</age>
+    </person>
+    <person id="7">
+        <name>二傻</name>
+        <age>8</age>
+    </person>
+    <person id="8">
+        <name>小玲</name>
+        <age>16</age>
+    </person>
+</persons>

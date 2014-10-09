@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SqlLite数据库</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">姓名</string>
+    <string name="phone">电话</string>
+    <string name="amount">存款</string>
+
+</resources>
