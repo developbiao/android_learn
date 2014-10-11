@@ -28,6 +28,7 @@ public class MainActivity extends ActionBarActivity {
 				Cursor cursor = resolver.query(uri, null, null, null, null);
 				while(cursor.moveToNext()){
 					String id = cursor.getString(cursor.getColumnIndex("contact_id"));
+					if(id != null){
 					System.out.println("id--->>"+id);
 					Cursor dataCursor = resolver.query(dataUri, null, "raw_contact_id=?", new String[]{id}, null);	
 					while(dataCursor.moveToNext()){
@@ -38,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
 					}
 					dataCursor.close();
 					System.out.println("-----------------");
+					}
 				}
 				cursor.close();
 			}
